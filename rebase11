@@ -1,0 +1,20 @@
+        $ git merge bugfix
+        
+       A---B        (master)
+            \
+              X---Y  (bugfix)
+fast-forward
+              
+       A---B--------Z  (master)
+            \      /
+              X---Y    (bugfix)
+
+
+       A---B---C---D  (master)
+            \      
+              X---Y    (bugfix)
+3-way merge
+
+       A---B---C---D---M  (master)
+            \       /
+              X---Y    (bugfix)
